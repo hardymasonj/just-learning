@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS.Learning.DIConsole", "HS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS.Learning.DILibrary", "HS.Learning.DILibrary\HS.Learning.DILibrary.csproj", "{27B0AFEF-96CD-44C8-9BE3-C266CA0E885C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS.Learning.DependencyInjection.NUnit", "..\HS.Learning.DependencyInjection.NUnit\HS.Learning.DependencyInjection.NUnit.csproj", "{293041AC-D94F-4B68-9DA5-686F17C9E51C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{C63E6B23-62CA-4C1C-8CDE-EB7A4F026233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS.Learning.WebServices", "..\HS.Learning.WebServices\HS.Learning.WebServices.csproj", "{3A05AF7B-ACC0-44BF-BA31-B9785046AF77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +39,20 @@ Global
 		{27B0AFEF-96CD-44C8-9BE3-C266CA0E885C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B0AFEF-96CD-44C8-9BE3-C266CA0E885C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B0AFEF-96CD-44C8-9BE3-C266CA0E885C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293041AC-D94F-4B68-9DA5-686F17C9E51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293041AC-D94F-4B68-9DA5-686F17C9E51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293041AC-D94F-4B68-9DA5-686F17C9E51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293041AC-D94F-4B68-9DA5-686F17C9E51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A05AF7B-ACC0-44BF-BA31-B9785046AF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A05AF7B-ACC0-44BF-BA31-B9785046AF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A05AF7B-ACC0-44BF-BA31-B9785046AF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A05AF7B-ACC0-44BF-BA31-B9785046AF77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A05AF7B-ACC0-44BF-BA31-B9785046AF77} = {C63E6B23-62CA-4C1C-8CDE-EB7A4F026233}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA9169FB-0C94-41C3-B5D1-5F298856B191}
